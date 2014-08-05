@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Deep Dive Air | Login</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://malsup.github.com/jquery.form.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/additional-methods.min.js"></script>
+        <script src="js/form_validation.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+        <link rel="stylesheet" href="css/simplegrid.css" type="text/css"/>
+        <link rel="stylesheet" href="css/stylesheet.css" type="text/css"/>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <header class="grid grid-pad">
+            
+            <div class="col-4-12">
+                <a href="index.html"><img src="img/airplane_logo.jpg" alt="Deep Dive Air place holder logo" width="128" height="128"/></a>
+            </div>
+            
+            <nav class="col-8-12">
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="sign_up.html">Sign Up</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        <div class="grid grid-pad">
+            
+            <form class="col-1-1" id="loginForm" method="post" action="php/login_validation.php">
+                <label for="loginEmail" class="loginLabel">Email</label>
+                <input type="email" name="loginEmail" id="loginEmail" placeholder="Email"/><br/>
+                <label for="loginPassword" class="loginLabel">Password</label>
+                <input type="password" name="loginPassword" id="loginPassword" placeholder="Password"/><br/>
+                <button type="submit" id="loginButton">Log In</button>
+            </form>
+            <div id="loginOutputArea" class="outputArea"></div>
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,238 @@
+/* Global styles */
+
+body {
+    background-color: #00ACFF;
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.000em;
+    line-height: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+}
+
+nav ul li a:hover {
+    color: #00ACFF;
+    background-color: #FFFFFF;
+}
+
+input {
+    text-align: center;
+    background-color: #00ACFF;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    outline: none;
+    padding-top: 20px;
+    width: 200px;
+}
+
+input::-webkit-input-placeholder {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.125em;
+}
+
+input::-moz-placeholder {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.125em;
+}
+
+input:-moz-placeholder {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.125em;
+}
+
+input:-ms-input-placeholder {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.125em;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #00ACFF inset;
+    -webkit-text-fill-color: #FFFFFF;
+}
+
+button {
+    background-color: #00ACFF;
+    color: #FFFFFF;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: 1px solid #FFFFFF;
+}
+
+button:active {
+    transform: translate(0px, 2px);
+    -ms-transform: translate(0px, 2px);
+    -webkit-transform: translate(0px, 2px);
+}
+
+button:hover {
+    color: #00ACFF;
+    background-color: #FFFFFF;
+}
+
+form {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.outputArea {
+    text-align: center;
+}
+
+/*  index page custom styles  ============================================================ */ 
+
+h1 {
+    font-weight: 100;
+    text-align: center;
+}
+
+section div h3, p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+/*  login page page custom styles  ============================================================================= */
+
+#loginPassword {
+    margin-right: 100px;
+}
+
+#loginEmail {
+    margin-right: 70px;
+}
+
+.loginLabel {
+    padding-right: 25px;
+}
+
+/*  sign up page custom styles  ============================================================================= */
+
+fieldset {
+    border-color: #FFFFFF;
+    text-align: left;
+    width: 550px;
+    margin: 0 auto;
+}
+
+legend {
+    text-align: center;
+}
+
+select {
+    background-color: #00ACFF;
+    font-weight: 100;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    margin-top: 15px;
+    text-align: left;
+}
+
+#signUpForm {
+    margin-top: 0px;
+}
+
+#contactNameLabel {
+    padding-right: 25px;
+}
+
+#lastName {
+    margin-right: 50px;
+}
+
+#contactEmail {
+    margin-right: 147px;
+}
+
+#contactEmailLabel {
+    padding-right: 130px;
+}
+
+#contactPhoneLabel {
+    padding-right: 60px;
+}
+
+#signUpPhoneNumber {
+    margin-right: 145px;
+}
+
+#profileEmailLabel {
+    padding-right:125px;
+}
+
+#profileEmail {
+    margin-right: 145px;
+}
+
+#profilePasswordLabel {
+    padding-right: 95px;
+}
+
+#signUpPassword {
+    margin-right:147px;
+}
+
+#confirmPasswordLabel {
+    padding-right: 40px;
+}
+
+#confirmSignUpPassword {
+    margin-right: 147px;
+}
+
+#dateOfBirthLabel {
+    padding-right: 55px;
+}
+
+#yearSelect {
+    margin-right: 125px;
+}
+
+/*  search page custom styles  ============================================================================= */
+
+ #departureDate {
+    padding-right: 10px;
+ }
+ 
+ #flightYear {
+    margin-right: 100px;
+ }
+
+
+
+
+
+
+
